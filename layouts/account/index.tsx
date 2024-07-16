@@ -1,5 +1,5 @@
 import { Toaster } from '@/components/ui/toaster';
-import { useUser } from '../../pages/hooks/use-user';
+import { useUser } from '../../sections/hooks/use-user';
 
 interface AppLayoutProps {
   children: React.ReactNode;

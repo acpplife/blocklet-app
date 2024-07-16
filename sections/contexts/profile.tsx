@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useEffect, useReducer } from 'react';
+import { fetchUserData } from '../../pages/api';
 import { User } from '../../types/user';
-import { fetchUserData } from '../api';
 import { useProfile } from '../hooks/use-profile';
 
 type State = {

@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import { AccountLayout } from '../layouts/account';
-import { CardLayout } from './components/card-layout';
+import { CardLayout } from '../sections/components/card-layout';
 
 interface PageProps {}
 
